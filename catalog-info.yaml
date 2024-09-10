@@ -21,3 +21,16 @@ spec:
   type: library
   owner: CNCF
   lifecycle: experimental
+status:
+  health: Healthy
+  lastChecked: 2024-09-10T12:00:00Z
+  uptime: 99.99%
+  latency: 120ms
+  version: 1.2.3       # Custom field for the current service version
+  errorRate: 0.01%     # Custom field for tracking error rate
+  throughput: 500rpm   # Custom field for request throughput (requests per minute)
+  incidents:
+    - id: "INC-1234"
+      description: "Transaction timeout issue."
+      status: "Resolved"
+      resolvedAt: 2024-09-09T14:00:00Z
