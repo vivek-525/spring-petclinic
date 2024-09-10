@@ -6,7 +6,7 @@ metadata:
     Spring pet clinic is an open source reference implementation of a Spring project.
   links:
     - title: Website
-      url: http://backstage.io
+      url: https://spring-petclinic.github.io/
     - title: Documentation
       url: https://backstage.io/docs
     - title: Storybook
