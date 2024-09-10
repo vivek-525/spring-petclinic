@@ -4,6 +4,9 @@ metadata:
   name: SpringPetClinic
   description: |
     Spring pet clinic is an open source reference implementation of a Spring project.
+  owner: auth-team
+  annotations:
+    backstage.io/techdocs-ref: "url:https://github.com/vivek-525/spring-petclinic/blob/main/readme.md"  # Reference to TechDocs
   links:
     - title: Website
       url: https://spring-petclinic.github.io/
