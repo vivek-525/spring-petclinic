@@ -1,28 +1,35 @@
-# Site Information
-site_name: 'Backstage Documentation'
-site_url: 'https://your-backstage-site.com'
-site_description: 'Documentation for Backstage'
+site_name: 'Backstage'
+site_description: 'Main documentation for Backstage features and framework APIs'
+repo_url: https://github.com/backstage/backstage
+edit_uri: edit/master/docs
 
-# Site Author and Copyright
-site_author: 'Your Team Name'
-copyright: '2024 Your Organization'
+plugins:
+  - techdocs-core
 
-# Navigation Structure
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
 nav:
-  - Home: index.md
-  - Overview: overview/index.md
+  - Overview:
+      - What is Backstage?: 'overview/what-is-backstage.md'
+      - Architecture overview: 'overview/architecture-overview.md'
+      - Project Roadmap: 'overview/roadmap.md'
+      - Vision: 'overview/vision.md'
+      - The Spotify Story: 'overview/background.md'
+      - Strategies for adopting: 'overview/adopting.md'
+      - Release & Versioning Policy: 'overview/versioning-policy.md'
+      - Backstage Threat Model: 'overview/threat-model.md'
+      - Support and community: 'overview/support.md'
+      - Logo assets: 'overview/logos.md'
   - Getting Started:
-      - Introduction: getting-started/introduction.md
-      - Installation: getting-started/installation.md
-      - Configuration: getting-started/configuration.md
-  - Plugins:
-      - Overview: plugins/index.md
-      - Writing Plugins: plugins/writing.md
-  - APIs:
-      - Catalog API: api/catalog-api.md
-      - TechDocs API: api/techdocs-api.md
-  - Deployment:
-      - Docker: deployment/docker.md
-      - Kubernetes: deployment/kubernetes.md
-  - FAQ: faq.md
-  - About:
+      - Creating your Backstage App: 'getting-started/index.md'
+      - Configuring Backstage:
+          - Database: 'getting-started/config/database.md'
+          - Authentication: 'getting-started/config/authentication.md'
+          - Configuring App with plugins: 'getting-started/configure-app-with-plugins.md'
+          - Customize the look-and-feel of your App: 'getting-started/app-custom-theme.md'
+          - Customizing your Homepage: 'getting-started/homepage.md'
+      - Using Backstage:
+          - Logging in: 'getting-started/logging-in.md'
+          - Register a component: 'getting-started/register-a-component.md'
+          - Create a component: 'getting-started/create-a-component.md'
+      - Keeping Backstage Updated: 'getting-started/keeping-backstage-updated.md'
+      - Key Concepts: 'getting-started/concepts.md'   
