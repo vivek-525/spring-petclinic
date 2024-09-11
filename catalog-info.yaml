@@ -19,7 +19,7 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
     monitoring-url: https://monitoring.example.com/user-auth-service
     pagerduty.com/service-id: "P123456"
-    backstage.io/techdocs-ref: "url:https://github.com/vivek-525/spring-petclinic/blob/main/readme.md"  # Reference to TechDocs
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: library
   owner: CNCF
