@@ -1,0 +1,28 @@
+# Site Information
+site_name: 'Backstage Documentation'
+site_url: 'https://your-backstage-site.com'
+site_description: 'Documentation for Backstage'
+
+# Site Author and Copyright
+site_author: 'Your Team Name'
+copyright: '2024 Your Organization'
+
+# Navigation Structure
+nav:
+  - Home: index.md
+  - Overview: overview/index.md
+  - Getting Started:
+      - Introduction: getting-started/introduction.md
+      - Installation: getting-started/installation.md
+      - Configuration: getting-started/configuration.md
+  - Plugins:
+      - Overview: plugins/index.md
+      - Writing Plugins: plugins/writing.md
+  - APIs:
+      - Catalog API: api/catalog-api.md
+      - TechDocs API: api/techdocs-api.md
+  - Deployment:
+      - Docker: deployment/docker.md
+      - Kubernetes: deployment/kubernetes.md
+  - FAQ: faq.md
+  - About:
