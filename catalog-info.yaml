@@ -28,5 +28,8 @@ spec:
   type: library
   owner: CNCF
   lifecycle: production
+  providesApis:
+    - vets-api
+    - pets-api
   
 
