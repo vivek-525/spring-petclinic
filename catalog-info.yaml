@@ -20,8 +20,13 @@ metadata:
     monitoring-url: https://monitoring.example.com/user-auth-service
     pagerduty.com/service-id: "P123456"
     backstage.io/techdocs-ref: dir:.
+    backstage.io/lifecycle: production
+  tags:
+    - sample
+    - service
 spec:
   type: library
   owner: CNCF
-  lifecycle: experimental
+  lifecycle: production
+  
 
