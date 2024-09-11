@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: johndoe
+  description: John Doe, Software Engineer
+spec:
+  profile:
+    displayName: John Doe
+    email: johndoe@example.com
+    picture: https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  memberOf:
+    - team-engineering
+  tags:
+    - engineer
+    - frontend
