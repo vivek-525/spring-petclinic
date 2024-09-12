@@ -25,6 +25,7 @@ metadata:
     - sample
     - service
 spec:
+  system: petcommerce-system
   type: library
   owner: CNCF
   lifecycle: production
